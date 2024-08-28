@@ -1,0 +1,38 @@
+# Ignorar el directorio de vendor de Composer
+/vendor/
+
+# Ignorar archivos de configuración de IDE
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.vscode/
+
+# Ignorar archivos de caché
+*.cache
+*.tmp
+*.log
+
+# Ignorar archivos generados por el entorno
+*.env
+*.env.*
+
+# Ignorar archivos de compilación o temporales
+*.phpunit.result.cache
+*.phar
+*.lock
+*.log
+
+# Ignorar directorios de subidas de archivos
+/uploads/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración específicos
+*.local
+*.yml
+*.yaml
+
+# Ignorar el directorio de pruebas si no quieres incluirlo en el repositorio
+/tests/

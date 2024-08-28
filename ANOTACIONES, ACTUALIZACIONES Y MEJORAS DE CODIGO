@@ -1,0 +1,32 @@
+Actualizar Composer y Autoloading:
+
+En el archivo composer.json, añade el mapeo PSR-4 para autoloading si decides implementar clases en src. Aquí hay un ejemplo de cómo podría verse:
+
+json
+Copiar código
+{
+    "autoload": {
+        "psr-4": {
+            "Alsao\\BlockBusterStore\\Controller\\": "src/Controller/",
+            "Alsao\\BlockBusterStore\\Model\\": "src/Model/",
+            "Alsao\\BlockBusterStore\\Service\\": "src/Service/"
+        }
+    }
+}
+Ejecuta composer dump-autoload para actualizar el autoloading de Composer.
+
+
+
+<ul class="nav justify-content-center" style="padding: auto 0;">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="auth/register.php" style="color:white;font-weight:bold">Únete!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="auth/login.php" style="color:white;font-weight:bold">Iniciar
+                            Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="auth/logout.php" style="color:white;font-weight:bold">Cerrar
+                            Sesión</a>
+                    </li>
+                </ul>

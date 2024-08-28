@@ -1,0 +1,76 @@
+/* || General setup */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Sans Pro", "sans-serif";
+    font-size: 16px;
+    background-color: #cecbcb;
+    overflow-x: hidden;
+    /* Evita el desbordamiento horizontal */
+}
+
+body main {
+    background-color: #cecbcb;
+    margin: 1em 0.5em;
+    padding: 0;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+    /* Evita el desbordamiento horizontal */
+}
+
+.navbar .container-fluid .navbar-nav .navbar-brand .nav-item {
+    margin: auto 15em;
+    text-align: center;
+    background-color: transparent;
+    list-style: none;
+    color:white;
+    font-weight:bold;
+    overflow-x: hidden;
+    /* Evita el desbordamiento horizontal */
+}
+
+/* Estilo de la barra de navegación */
+.navbar-nav .nav-link.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: yellow !important;
+}
+
+/* Ajustes del formulario de búsqueda */
+form.d-flex {
+    max-width: 500px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #ffffff;
+}
+
+main .rowmain {
+    margin: auto 0;
+    text-align: center;
+    background-color: #cecbcb;
+    list-style: none;
+}
